@@ -11,7 +11,7 @@ Stripe Integration
 * Javascript should prevent Pro form from submitting when user fills it out,
 and should send card info to stripe
     * Stripe will return with a card token
-* Javascript will should send user fields and card token to our rails app
+* Javascript should send user fields and card token to our rails app
     * Rails app should validate the user fields
         * Rails app will note the user fields are valid and whether plan 1 or 2
 * Once validated, Rails should send user info (email, plan id) and card token to
